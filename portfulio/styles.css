@@ -1,0 +1,83 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.navbar li{ 
+    float: right;
+}
+body{
+    background-color:beige;
+}
+.texc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    color:blue;
+    
+}
+.texc > div {
+    margin: 10px; /* Adds margin around each book section */
+    padding: 20px; /* Adds padding inside each book section */
+    border: 1px solid #ccc; /* Adds border to create separation */
+ 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.no{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    
+    
+}
+.no > div {
+    margin: 10px; /* Adds margin around each book section */
+    padding: 20px; /* Adds padding inside each book section */
+    border: 1px solid #ccc; /* Adds border to create separation */
+ 
+    
+}
+.his{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.his2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.mp{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+
+    
+
