@@ -1,14 +1,22 @@
 header{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the header spans the full width */
+    
+    color: antiquewhite;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
     
 }
 .navbar ul{
     list-style-type: none;
 }
 .navbar a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 5px;
 }
@@ -16,21 +24,24 @@ header{
     float: right;
 }
 body{
-    background-color:beige;
+    background-color:black;
 }
 .texc{
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: row;
-    color:blue;
+    color:white;
     
+}
+.lok{
+    color: aliceblue;
 }
 .texc > div {
     margin: 10px; /* Adds margin around each book section */
     padding: 20px; /* Adds padding inside each book section */
     border: 1px solid #ccc; /* Adds border to create separation */
- 
+    color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 .no{
@@ -38,6 +49,7 @@ body{
     justify-content: center;
     align-content: center;
     flex-direction: row;
+    color: white;
     
     
 }
@@ -55,6 +67,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    color: white;
     
 }
 .his2{
@@ -64,6 +77,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: white;
     
 }
 footer{
@@ -75,8 +89,48 @@ footer{
     justify-content: center;
     align-content: center;
     justify-content: space-around;
+    color: white;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+   
+   
+}
+.login-form input{
+    padding: 15px 15px;
+}
+.container h1 {
+    padding: 4rem;
+    color: white;
 }
 
+
+.submit-button {
+    background-color: aqua;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border:none;
+    outline: none;
+    font-size: 500;
+    padding-left: 25px;
+    color: black;
+    border-radius: 50px;
+}
+
+    
+
+
+ 
 
 
     
